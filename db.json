@@ -1,25 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "Matheus Palma",
-      "budget": "10.000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 1,
-      "service": [],
-      "id": 1,
-      "services": [
-        {
-          "name": "aaaaaa",
-          "cost": "1.000",
-          "description": "1234",
-          "id": "e81cf0f1-5046-44d1-a47f-0b9b8a0bdf9d"
-        }
-      ]
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,
