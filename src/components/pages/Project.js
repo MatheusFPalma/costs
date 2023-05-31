@@ -22,7 +22,7 @@ function Project() {
   }, [id])
 
   const fetchProjectData = () => {
-    fetch(`https://costs-matheus.onrender.com/projects/${id}`, {
+    fetch(`http://localhost:4000/projects/${id}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ function Project() {
   }
 
   const fetchUpdatedProjectData = (project) => { 
-    fetch(`https://costs-matheus.onrender.com/projects/${project.id}`, { 
+    fetch(`http://localhost:4000/projects/${project.id}`, { 
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ function Project() {
       setType('error')
       return false
     }
-    fetch(`https://costs-matheus.onrender.com/projects/${id}`, {
+    fetch(`http://localhost:4000/projects/${id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
@@ -100,7 +100,7 @@ function Project() {
 
     project.cost = newCost
 
-    fetch(`https://costs-matheus.onrender.com/projects/${project.id}`, {
+    fetch(`http://localhost:4000/projects/${project.id}`, {
       method: 'PATCH',
       headers: {
         'content-type': 'application/json'
@@ -128,7 +128,7 @@ function Project() {
     projectUpdated.services = servicesUpdated
     projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
 
-    fetch(`https://costs-matheus.onrender.com/projects/${projectUpdated.id}`, {
+    fetch(`http://localhost:4000/projects/${projectUpdated.id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json'

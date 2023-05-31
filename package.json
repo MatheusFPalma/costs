@@ -16,12 +16,9 @@
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "typescript": "^4.5.4"
-  },
   "scripts": {
-    "start": "REACT_APP_BACKEND_URL=https://costs-matheus.onrender.com react-scripts start",
-    "backend": "node server.js",
+    "start": "react-scripts start",
+    "backend": "json-server --watch db.json --port 4000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

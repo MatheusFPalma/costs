@@ -18,7 +18,7 @@ function Projects() {
 
     useEffect(() => {
     setTimeout(() => {
-        fetch('https://costs-matheus.onrender.com/projects', {
+        fetch('http://localhost:4000/projects', {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ function Projects() {
 
     function removeProject(id, name){
 
-        fetch(`https://costs-matheus.onrender.com/projects/${id}`,{
+        fetch(`http://localhost:4000/projects/${id}`,{
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json'
