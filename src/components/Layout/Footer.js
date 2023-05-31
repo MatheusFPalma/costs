@@ -27,7 +27,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://wa.me/5511979682009" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5511979682009?text=Olá Matheus, está contratado, começa amanhã!" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp />
                     </a>
                 </li>
