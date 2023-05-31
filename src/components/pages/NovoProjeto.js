@@ -8,7 +8,7 @@ const navigate = useNavigate();
         project.cost = 0;
         project.service = [];
       
-        fetch('http://localhost:4000/projects', {
+        fetch('/https://costs-matheus.onrender.com/projects', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
