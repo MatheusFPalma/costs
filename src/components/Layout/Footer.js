@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import {  FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import WhatsAppLink from './WhatsAppLink';
 import styles from './Footer.module.css';
 
@@ -6,16 +6,6 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <ul className={styles.social_list}>
-                <li>
-                    <a href="https://www.facebook.com/horadecodar" target="_blank" rel="noopener noreferrer">
-                        <FaFacebook />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/math_palma/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram />
-                    </a>
-                </li>
                 <li>
                     <a href="https://www.linkedin.com/in/matheusfpalma/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin />
