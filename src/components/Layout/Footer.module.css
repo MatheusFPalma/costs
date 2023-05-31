@@ -9,8 +9,11 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
+    color: #FFBB33;
 }
-
+.social_list a {
+    color: #FFBB33;
+}
 .social_list li {
     margin: 0 1em;
 }

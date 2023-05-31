@@ -1,5 +1,78 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "name": "Manutenção da impressora",
+      "budget": "1000",
+      "cost": 450,
+      "service": [],
+      "id": 2,
+      "services": [
+        {
+          "name": "Chamar o técnico",
+          "cost": "150",
+          "description": "Chamar o seu Oswaldo para trocar a tinta",
+          "id": "af0d7984-3a08-4cc2-b424-b0a12ee8e356"
+        },
+        {
+          "name": "Comprar tinta",
+          "cost": "300",
+          "description": "Troca do cartucho de tinta",
+          "id": "5a2c3a9d-942f-4d99-938b-6f1b6661ac3e"
+        }
+      ]
+    },
+    {
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "name": "Corrigir bugs ",
+      "budget": "5000",
+      "cost": 5000,
+      "service": [],
+      "id": 3,
+      "services": [
+        {
+          "name": "Contratar um programador",
+          "cost": "2000",
+          "description": "Contratar desenvolvedor web para tratar os bugs",
+          "id": "5ff7a4fc-6de3-411e-a3cb-6fed5d97301c"
+        },
+        {
+          "name": "Auxilio psicológico",
+          "cost": "3000",
+          "description": "Pagar o tratamento psicológico do desenvolvedor que não aguentou a pressão de trabalhar em um projeto legado",
+          "id": "3a6fc227-3ded-4ea9-b756-8ec74dce8122"
+        }
+      ]
+    },
+    {
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "name": "Construção da identidade visual",
+      "budget": "2000",
+      "cost": 0,
+      "service": [],
+      "id": 4
+    },
+    {
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "name": "Contratar Scrum",
+      "budget": "3000",
+      "cost": 0,
+      "service": [],
+      "id": 5
+    }
+  ],
   "categories": [
     {
       "id": 1,

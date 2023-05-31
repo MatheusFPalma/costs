@@ -1,16 +1,16 @@
-import styles from "./ProjectCard.module.css"
-import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
+import styles from "./ProjectCard.module.css";
+import { BsPencil, BsFillTrashFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 function ProjectCard ({id, name, budget, category, handleRemove}) {
     
     const remove = (e) => {
-        e.preventDefault()
-        handleRemove(id)
+        e.preventDefault();
+        handleRemove(id);
     }
 
     return (
-    <div className={styles.project_card}>
+    <div className={`${styles.project_card} card`}>
         {name && <h4>{name}</h4>}
         <p>
             <span>Orçamento:</span> R${budget}
@@ -30,4 +30,4 @@ function ProjectCard ({id, name, budget, category, handleRemove}) {
     )
 }
 
-export default ProjectCard
+export default ProjectCard;
