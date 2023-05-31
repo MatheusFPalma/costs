@@ -1,5 +1,5 @@
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import WhatsAppLink from './WhatsAppLink';
 import styles from './Footer.module.css';
 
 function Footer() {
@@ -26,8 +26,13 @@ function Footer() {
                         <FaGithub />
                     </a>
                 </li>
+                <li>
+                    <a href="https://wa.me/5511979682009" target="_blank" rel="noopener noreferrer">
+                        <FaWhatsapp />
+                    </a>
+                </li>
             </ul>
-            <p className={styles.copyright}>
+            <p className={styles.copyrigh}>
                 <span>Costs</span> &copy; 2023
             </p>
         </footer>
